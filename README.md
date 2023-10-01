@@ -17,3 +17,10 @@ make setup
 ```sh
 make run-server
 ```
+
+or 
+
+```sh
+python web-socket-server.py $(ls /dev/tty.* | grep serial) ws://localhost:4444
+```
+
